@@ -9,8 +9,8 @@ app = Flask(__name__)
 @app.route("/")
 def home():
 
-    name = "Alex" # write your name
-    age = "12" # write your age
+    name = "Jason" # write your name
+    age = "13" # write your age
 
     return render_template('index.html' , name = name , age = age)
 
@@ -18,8 +18,8 @@ def home():
 @app.route("/father")
 def father():
 
-    name = "Vicktor" # write your name
-    age = "40" # write your age
+    name = "????" # write your name
+    age = "???" # write your age
 
     return render_template('father.html' , name = name , age = age)
 
@@ -27,8 +27,8 @@ def father():
 @app.route("/mother")
 def mother():
 
-    name = "Erica" # write your name
-    age = "37" # write your age
+    name = "???" # write your name
+    age = "????" # write your age
 
     return render_template('mother.html' , name = name , age = age)
 
@@ -37,8 +37,8 @@ def mother():
 @app.route("/friend")
 def friend():
 
-    name = "Peter" # write your name
-    age = "12" # write your age
+    name = "????" # write your name
+    age = "????" # write your age
 
     return render_template('friend.html' , name = name , age = age)
 
